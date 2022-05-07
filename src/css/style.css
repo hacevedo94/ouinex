@@ -323,7 +323,7 @@ footer .signature {
   footer .signature {
     margin-bottom: 0;
     margin-top: 0;
-    
+
   }
 }
 
@@ -343,4 +343,14 @@ footer .signature {
     margin-left: 20px;  
   }
   
+}
+
+@media only screen and (min-device-width: 480px) 
+                   and (orientation: landscape) {
+body{
+  height: 650px;
+}
+main .coming-soon-form {
+  bottom: 24vh;
+}
 }
