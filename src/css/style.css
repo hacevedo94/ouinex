@@ -156,6 +156,9 @@ main .coming-soon-form form button {
   text-align: center;
   width: 138px;
 }
+main .coming-soon-form form button:hover {
+  cursor: pointer;
+}
 
 footer {
   display: flex;
@@ -236,6 +239,10 @@ footer .signature {
   text-transform: uppercase;
   text-align: center;
   width: 138px;
+}
+
+#content_thank_you button:hover {
+  cursor: pointer;
 }
 
 ::placeholder {
