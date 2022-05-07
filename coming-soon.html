@@ -18,24 +18,25 @@
       <p>By traders, for traders</p>
     </header>
     <main class="content">
-      <h1>The crypto ecosystem for active traders.</h1>
+      <!--<h1>The crypto ecosystem for active traders.</h1>-->
 
+      <h1>We are building a world class crypto exchange for active traders.</h1>
       <!--<p class="primary-text-color">
         Secure and easy access to deep liquidity, best bid ask aggregation from
         the largest exchanges worlwide, lightning fast trading execution. The
         latest technologies embbed in our proprietary trading platform.
       </p>-->
 
-      <p class="secondary-text-color">
+      <!--p class="secondary-text-color">
         We are building a world class crypto exchange for active traders
-      </p>
+      </p>-->
 
       <div class="coming-soon-form">
-        <h2>ICO COMING SOON</h2>
+        <h2>ICO Coming Soon</h2>
 
-        <form action="">
+        <form action="" id="my_form">
           <input type="text" placeholder="Enter your Email here" />
-          <button>Notify Me</button>
+          <button id="nextStep">Notify Me</button>
         </form>
       </div>
     </main>
@@ -50,5 +51,24 @@
       </ul>
       <p class="signature">&copy; 2022 by <a href="#">OUINEX</a></p>
     </footer>
+    <div id="thank_you">
+      <div id="content_thank_you"></div>
+        <p>Thank you for your interest, we will reach out to you shortly</p>
+        <button type="submit">Close</button>
+      </div>
+    </div>
+
+    <script>
+      var nextStep = document.querySelector('#nextStep');
+    
+      nextStep.addEventListener('click', function (e) {
+        e.preventDefault();
+        // Hide first view
+        //document.getElementById('my_form').style.display = 'none';
+    
+        // Show thank you message element
+        document.getElementById('thank_you').style.display = 'block';
+      });
+    </script>
   </body>
 </html>
