@@ -61,7 +61,7 @@ main.content {
 }
 
 main.content h1 {
-  color: var(--primary-text-color);
+  color: #686868;
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
@@ -332,6 +332,8 @@ footer .signature {
   }
   
   main.content h1 {
+    
+  color: #686868;
     margin-top: 5vh;
   }
   
