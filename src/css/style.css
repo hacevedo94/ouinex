@@ -211,6 +211,10 @@ footer .signature {
   background-color: #FFFFFF;
 }
 
+::placeholder {
+  color: #FFFFFF;
+}
+
 @media (min-width: 535px) {
   main.content h1 {
     padding-left: 80px;
