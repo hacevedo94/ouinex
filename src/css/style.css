@@ -345,7 +345,7 @@ footer .signature {
   
 }
 
-@media only screen and (min-device-width: 480px) 
+@media only screen and (min-device-width: 380px) 
                    and (orientation: landscape) {
 body{
   height: 650px;
@@ -353,4 +353,13 @@ body{
 main .coming-soon-form {
   bottom: 24vh;
 }
+#content_thank_you{
+  width: 500px;  
+  /*margin-left: 20px;  */
+}
+
+#thank_you{
+  transform: translateX(0px);
+}
+
 }
