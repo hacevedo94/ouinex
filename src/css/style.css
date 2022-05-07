@@ -33,7 +33,7 @@ body {
   min-height: 100vh;
   text-align: center;
   padding: 0px 20px;
-  min-height: 500px;
+  min-height: 100vh;
 }
 
 header,
@@ -330,6 +330,9 @@ footer .signature {
 }
 
 @media (min-width: 1281px) {
+  body{
+    min-height: 100vh;
+  }
   main .coming-soon-form {
     bottom: 24vh;
   }
@@ -355,6 +358,7 @@ footer .signature {
                    and (orientation: landscape) {
 body{
   height: 650px;
+  min-height: 650px;
 }
 main .coming-soon-form {
   bottom: 26vh;
