@@ -31,7 +31,6 @@ body {
   flex-direction: column;
   height: 100vh;
   min-height: 100vh;
-  padding: 0px 20px;
   text-align: center;
 }
 
@@ -39,6 +38,7 @@ header,
 main.content,
 footer {
   width: 100%;
+  padding: 0px 20px;
 }
 
 header {
