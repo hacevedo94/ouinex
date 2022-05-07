@@ -337,15 +337,19 @@ footer .signature {
   color: #686868;
     margin-top: 5vh;
   }
+  #thank_you{
+    transform: translateX(0px);
+  }
   
   #content_thank_you{
     width: 500px;  
-    margin-left: 20px;  
+    margin-left:  0px;  
   }
   
 }
 
 @media only screen and (min-device-width: 380px) 
+                   and (max-width: 1280px)
                    and (orientation: landscape) {
 body{
   height: 650px;
