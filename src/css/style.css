@@ -32,13 +32,13 @@ body {
   height: 100vh;
   min-height: 100vh;
   text-align: center;
+  padding: 0px 20px;
 }
 
 header,
 main.content,
 footer {
   width: 100%;
-  padding: 0px 20px;
 }
 
 header {
@@ -206,12 +206,13 @@ footer .signature {
   height: 100%; 
   background-color: #00000077;
   transition: .3s;
-  opacity: 0;
+  opacity: 0;  
+  transform: translateX(-20px);
 }
 
 #content_thank_you{
   padding: 20px;
-  width: 500px;
+  width: 250px;
   margin: 0;
   position: absolute;
   top: 50%;
@@ -220,6 +221,7 @@ footer .signature {
   background-color: #FFFFFF;
   border-radius: 10px;
   color: var(--primary-text-color);
+  margin-left: 0px;
 }
 
 
@@ -331,6 +333,11 @@ footer .signature {
   
   main.content h1 {
     margin-top: 5vh;
+  }
+  
+  #content_thank_you{
+    width: 500px;  
+    margin-left: 20px;  
   }
   
 }
