@@ -257,6 +257,10 @@ footer .signature {
   bottom: 25vh!important;
 }
 
+.focusInputTablet{
+  bottom: 35vh!important;
+}
+
 @media (min-width: 535px) {
   main.content h1 {
     padding-left: 80px;
