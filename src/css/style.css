@@ -362,65 +362,84 @@ footer .signature {
 
 @media only screen and (min-width: 1181px) 
                    and (max-width: 1280px){
-body{
-  height: 650px;
-  min-height: 650px;
-}
-main .coming-soon-form {
-  bottom: 18vh;
-}
-#content_thank_you{
-  width: 500px;  
-  /*margin-left: 20px;  */
+    body{
+      height: 650px;
+      min-height: 650px;
+    }
+    main .coming-soon-form {
+      bottom: 18vh;
+    }
+    #content_thank_you{
+      width: 500px;  
+      /*margin-left: 20px;  */
+    }
+
+    #thank_you{
+      transform: translateX(0px);
+    }
+
 }
 
-#thank_you{
-  transform: translateX(0px);
-}
-
-}
-
-@media only screen and (min-width: 300px) 
+@media only screen and (min-width: 325px) 
                    and (max-width: 379px){
-body{
-  height: 650px;
-  min-height: 650px;
-}
-main.content h1 {    
-  color: #686868;
-  margin-top: 5vh;
-}
-main .coming-soon-form {
-  bottom: 18vh;
-}
-#content_thank_you{
-  width: 500px;  
-  /*margin-left: 20px;  */
+    body{
+      height: 650px;
+      min-height: 650px;
+    }
+    main.content h1 {    
+      color: #686868;
+      margin-top: 5vh;
+    }
+    main .coming-soon-form {
+      bottom: 18vh;
+    }
+    #content_thank_you{
+      width: 500px;  
+      /*margin-left: 20px;  */
+    }
 }
 
-#thank_you{
-  transform: translateX(0px);
-}
+
+@media only screen and (min-device-width: 300px) 
+                   and (max-device-width: 325px){
+    body{
+      height: 568px;
+      min-height: 568px;
+    }
+    main.content h1 {    
+      color: #686868;
+      margin-top: 4vh;
+    }
+    main .coming-soon-form {
+      bottom: 15vh;
+    }
+    #content_thank_you{
+      width: 500px;  
+      /*margin-left: 20px;  */
+    }
+    #thank_you{
+      transform: translateX(0px);
+    }
 
 }
 
 @media only screen and (min-device-width: 380px) 
                    and (max-width: 1180px)
                    and (orientation: landscape) {
-body{
-  height: 650px;
-  min-height: 650px;
-}
-main .coming-soon-form {
-  bottom: 30vh;
-}
-#content_thank_you{
-  width: 500px;  
-  /*margin-left: 20px;  */
-}
+    body{
+      height: 650px;
+      min-height: 650px;
+    }
+    main .coming-soon-form {
+      bottom: 30vh;
+    }
+    #content_thank_you{
+      width: 500px;  
+      /*margin-left: 20px;  */
+    }
 
-#thank_you{
-  transform: translateX(0px);
-}
+    #thank_you{
+      transform: translateX(0px);
+    }
 
 }
