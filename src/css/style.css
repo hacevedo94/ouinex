@@ -345,9 +345,8 @@ footer .signature {
     bottom: 24vh;
   }
   
-  main.content h1 {
-    
-  color: #686868;
+  main.content h1 {    
+    color: #686868;
     margin-top: 5vh;
   }
   #thank_you{
@@ -369,6 +368,30 @@ body{
 }
 main .coming-soon-form {
   bottom: 18vh;
+}
+#content_thank_you{
+  width: 500px;  
+  /*margin-left: 20px;  */
+}
+
+#thank_you{
+  transform: translateX(0px);
+}
+
+}
+
+@media only screen and (min-width: 300px) 
+                   and (max-width: 379px){
+body{
+  height: 650px;
+  min-height: 650px;
+}
+main.content h1 {    
+  color: #686868;
+  margin-top: 5vh;
+}
+main .coming-soon-form {
+  bottom: 17vh;
 }
 #content_thank_you{
   width: 500px;  
