@@ -258,7 +258,7 @@ footer .signature {
 }
 
 .focusInputTablet{
-  bottom: 35vh!important;
+  bottom: 400px!important;
 }
 
 @media (min-width: 535px) {
