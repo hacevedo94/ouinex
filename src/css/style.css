@@ -258,7 +258,7 @@ footer .signature {
 }
 
 .focusInputTablet{
-  bottom: 400px!important;
+  bottom: 28vh!important;
 }
 
 @media (min-width: 535px) {
@@ -361,15 +361,35 @@ footer .signature {
   
 }
 
+@media only screen and (min-width: 1181px) 
+                   and (max-width: 1280px){
+body{
+  height: 650px;
+  min-height: 650px;
+}
+main .coming-soon-form {
+  bottom: 18vh;
+}
+#content_thank_you{
+  width: 500px;  
+  /*margin-left: 20px;  */
+}
+
+#thank_you{
+  transform: translateX(0px);
+}
+
+}
+
 @media only screen and (min-device-width: 380px) 
-                   and (max-width: 1280px)
+                   and (max-width: 1180px)
                    and (orientation: landscape) {
 body{
   height: 650px;
   min-height: 650px;
 }
 main .coming-soon-form {
-  bottom: 28vh;
+  bottom: 30vh;
 }
 #content_thank_you{
   width: 500px;  
