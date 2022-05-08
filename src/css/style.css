@@ -253,6 +253,10 @@ footer .signature {
   color: #FFFFFF;
 }
 
+.focusInput{
+  bottom: 24vh;
+}
+
 @media (min-width: 535px) {
   main.content h1 {
     padding-left: 80px;
