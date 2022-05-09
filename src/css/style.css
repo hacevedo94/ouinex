@@ -371,7 +371,6 @@ footer .signature {
     }
     #content_thank_you{
       width: 500px;  
-      /*margin-left: 20px;  */
     }
 
     #thank_you{
@@ -380,8 +379,231 @@ footer .signature {
 
 }
 
-@media only screen and (min-width: 325px) 
-                   and (max-width: 379px){
+@media only screen and (min-width: 400px) 
+                   and (max-width: 420px){
+    body{
+      height: 650px;
+      min-height: 650px;
+    }
+    main.content h1 {    
+      color: #686868;
+      margin-top: 6vh;
+    }
+    main .coming-soon-form {
+      bottom: 20vh;
+    }
+    #content_thank_you{
+      width: 500px;  
+    }
+}
+
+@media only screen 
+    and (device-width : 375px) 
+    and (device-height : 812px) 
+    and (-webkit-device-pixel-ratio : 3) { /*iphone X*/
+    body{
+      height: 650px;
+      min-height: 650px;
+    }
+    main.content h1 {    
+      color: #686868;
+      margin-top: 5vh;
+    }
+    main .coming-soon-form {
+      bottom: 14vh;
+    }
+    #content_thank_you{
+      width: 500px;  
+    }
+}
+
+@media only screen 
+    and (device-width : 375px) 
+    and (device-height : 667px) 
+    and (-webkit-device-pixel-ratio : 2) { /* iphone 6,7,8 */
+      body{
+        height: 650px;
+        min-height: 650px;
+      }
+      main.content h1 {    
+        color: #686868;
+        margin-top: 5vh;
+      }
+      main .coming-soon-form {
+        bottom: 17vh;
+      }
+      #content_thank_you{
+        width: 500px;  
+      }
+
+     }
+
+     
+
+@media only screen 
+and (device-width : 320px) 
+and (device-height : 568px) 
+and (-webkit-device-pixel-ratio : 2) { /* iphone 5,SE*/
+  body{
+    height: 568px;
+    min-height: 568px;
+  }
+  main.content h1 {    
+    color: #686868;
+    margin-top: 4vh;
+  }
+  main .coming-soon-form {
+    bottom: 15vh;
+  }
+  #content_thank_you{
+    width: 500px;  
+  }
+  #thank_you{
+    transform: translateX(0px);
+  }
+
+ }
+
+     @media only screen 
+    and (device-width : 414px) 
+    and (device-height : 736px) 
+    and (-webkit-device-pixel-ratio : 3) {/* iphone 6,7,8 Plus*/
+      body{
+        height: 650px;
+        min-height: 650px;
+      }
+      main.content h1 {    
+        color: #686868;
+        margin-top: 5vh;
+      }
+      main .coming-soon-form {
+        bottom: 18vh;
+      }
+      #content_thank_you{
+        width: 500px;  
+      } 
+    }
+
+    @media only screen 
+   and (device-width : 414px) 
+   and (device-height : 896px) {
+     body{
+       height: 650px;
+       min-height: 650px;
+     }
+     main.content h1 {    
+       color: #686868;
+       margin-top: 10vh;
+     }
+     main .coming-soon-form {
+       bottom: 16vh;
+     }
+     #content_thank_you{
+       width: 500px;  
+     } 
+   }
+
+    @media only screen 
+   and (device-width : 360px) 
+   and (device-height : 740px) 
+   and (-webkit-device-pixel-ratio : 4) {/* samsung s8*/
+     body{
+       height: 650px;
+       min-height: 650px;
+     }
+     main.content h1 {    
+       color: #686868;
+       margin-top: 5vh;
+     }
+     main .coming-soon-form {
+       bottom: 16vh;
+     }
+     #content_thank_you{
+       width: 500px;  
+     } 
+   }
+
+   @media only screen 
+  and (device-width : 360px) 
+  and (device-height : 740px) 
+  and (-webkit-min-device-pixel-ratio: 4) {/* samsung s8+*/
+    body{
+      height: 650px;
+      min-height: 650px;
+    }
+    main.content h1 {    
+      color: #686868;
+      margin-top: 10vh;
+    }
+    main .coming-soon-form {
+      bottom: 14vh;
+    }
+    #content_thank_you{
+      width: 500px;  
+    } 
+  }
+
+   @media only screen 
+   and (device-width : 320px) 
+   and (device-height : 658px) {/* samsung s9+*/
+     body{
+       height: 650px;
+       min-height: 650px;
+     }
+     main.content h1 {    
+       color: #686868;
+       margin-top: 7vh;
+     }
+     main .coming-soon-form {
+       bottom: 13vh;
+     }
+     #content_thank_you{
+       width: 500px;  
+     } 
+   }
+
+   @media only screen 
+   and (device-width : 412px) 
+   and (device-height : 915px) 
+   and (-webkit-min-device-pixel-ratio: 3.5) {/* samsung 20ultra*/
+     body{
+       height: 650px;
+       min-height: 650px;
+     }
+     main.content h1 {    
+       color: #686868;
+       margin-top: 14vh;
+     }
+     main .coming-soon-form {
+       bottom: 16vh;
+     }
+     #content_thank_you{
+       width: 500px;  
+     } 
+   }
+
+   @media only screen 
+   and (device-width : 412px) 
+   and (device-height : 914px) 
+   and (-webkit-min-device-pixel-ratio: 2.625) {/* samsung 20ultra*/
+     body{
+       height: 650px;
+       min-height: 650px;
+     }
+     main.content h1 {    
+       color: #686868;
+       margin-top: 14vh;
+     }
+     main .coming-soon-form {
+       bottom: 16vh;
+     }
+     #content_thank_you{
+       width: 500px;  
+     } 
+   }
+
+/*@media only screen and (min-width: 325px) 
+                   and (max-width: 374px){
     body{
       height: 650px;
       min-height: 650px;
@@ -395,12 +617,11 @@ footer .signature {
     }
     #content_thank_you{
       width: 500px;  
-      /*margin-left: 20px;  */
     }
-}
+}*/
 
 
-@media only screen and (min-device-width: 300px) 
+/*@media only screen and (min-device-width: 300px) 
                    and (max-device-width: 325px){
     body{
       height: 568px;
@@ -415,13 +636,12 @@ footer .signature {
     }
     #content_thank_you{
       width: 500px;  
-      /*margin-left: 20px;  */
     }
     #thank_you{
       transform: translateX(0px);
     }
 
-}
+}*/
 
 @media only screen and (min-device-width: 380px) 
                    and (max-width: 1180px)
