@@ -503,6 +503,66 @@ and (-webkit-device-pixel-ratio : 2) { /* iphone 5,SE*/
      } 
    }
 
+   @media only screen 
+    and (device-width: 375px) 
+    and (device-height: 812px) 
+    and (-webkit-device-pixel-ratio: 3) {/* iphone 13 mini */
+      body{
+        height: 650px;
+        min-height: 650px;
+      }
+      main.content h1 {    
+        color: #686868;
+        margin-top: 10vh;
+      }
+      main .coming-soon-form {
+        bottom: 18vh;
+      }
+      #content_thank_you{
+        width: 500px;  
+      } 
+    }
+   
+    @media only screen 
+    and (device-width: 390px) 
+    and (device-height: 844px) 
+    and (-webkit-device-pixel-ratio: 3) {/* iPhone 13 and iPhone 13 Pro */
+      body{
+        height: 650px;
+        min-height: 650px;
+      }
+      main.content h1 {    
+        color: #686868;
+        margin-top: 10vh;
+      }
+      main .coming-soon-form {
+        bottom: 19vh;
+      }
+      #content_thank_you{
+        width: 500px;  
+      } 
+    }
+   
+    @media only screen 
+    and (device-width: 428px) 
+    and (device-height: 926px) 
+    and (-webkit-device-pixel-ratio: 3) {/* iPhone 13 Pro Max*/
+      body{
+        height: 650px;
+        min-height: 650px;
+      }
+      main.content h1 {    
+        color: #686868;
+        margin-top: 10vh;
+      }
+      main .coming-soon-form {
+        bottom: 19vh;
+      }
+      #content_thank_you{
+        width: 500px;  
+      } 
+    }
+
     @media only screen 
    and (device-width : 360px) 
    and (device-height : 740px) 
