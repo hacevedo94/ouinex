@@ -603,10 +603,10 @@ and (-webkit-device-pixel-ratio : 2) { /* iphone 5,SE*/
       } 
     }
    
-    @media only screen 
+    /*@media only screen 
     and (device-width: 375px) 
     and (device-height: 667px) 
-    and (-webkit-device-pixel-ratio: 2) {/* iPhone SE 2020*/
+    and (-webkit-device-pixel-ratio: 2) {
       body{
         height: 650px;
         min-height: 650px;
@@ -621,7 +621,7 @@ and (-webkit-device-pixel-ratio : 2) { /* iphone 5,SE*/
       #content_thank_you{
         width: 500px;  
       } 
-    }
+    }*/
 
     @media only screen 
    and (device-width : 360px) 
@@ -663,9 +663,30 @@ and (-webkit-device-pixel-ratio : 2) { /* iphone 5,SE*/
     } 
   }
 
+  @media only screen 
+  and (device-width : 360px) 
+  and (device-height : 740px) 
+  and (-webkit-min-device-pixel-ratio: 4){/* samsung s9*/
+    body{
+      height: 650px;
+      min-height: 650px;
+    }
+    main.content h1 {    
+      color: #686868;
+      margin-top: 7vh;
+    }
+    main .coming-soon-form {
+      bottom: 18vh;
+    }
+    #content_thank_you{
+      width: 500px;  
+    } 
+  }
+
    @media only screen 
    and (device-width : 320px) 
-   and (device-height : 658px) {/* samsung s9+*/
+   and (device-height : 658px) 
+   and (-webkit-min-device-pixel-ratio: 4){/* samsung s9+*/
      body{
        height: 650px;
        min-height: 650px;
