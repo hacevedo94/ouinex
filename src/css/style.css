@@ -602,6 +602,24 @@ and (-webkit-device-pixel-ratio : 2) { /* iphone 5,SE*/
      } 
    }
 
+   @media only screen and (min-device-width: 320px) and (max-device-height: 694px){
+    body{
+      height: 650px;
+      min-height: 650px;
+    }
+    main.content h1 {    
+      color: #686868;
+      margin-top: 12vh;
+    }
+    main .coming-soon-form {
+      bottom: 13vh;
+    }
+    #content_thank_you{
+      width: 500px;  
+    } 
+  }
+   }
+
 /*@media only screen and (min-width: 325px) 
                    and (max-width: 374px){
     body{
