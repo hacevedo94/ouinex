@@ -93,7 +93,7 @@ main.content p.secondary-text-color {
 main .coming-soon-form {
   /*margin-top: 30px;*/
   /*bottom: 15%;  */
-  bottom: 13vh;
+  bottom: 16vh;
   left: 0;
   position: absolute;
   right: 0;
@@ -620,7 +620,7 @@ and (-webkit-device-pixel-ratio : 2) { /* iphone 5,SE*/
       width: 500px;  
     } 
   }
-   }
+   
 
 /*@media only screen and (min-width: 325px) 
                    and (max-width: 374px){
