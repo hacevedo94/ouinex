@@ -584,8 +584,8 @@ and (-webkit-device-pixel-ratio : 2) { /* iphone 5,SE*/
 
    @media only screen 
    and (device-width : 412px) 
-   and (device-height : 915px) 
-   and (-webkit-min-device-pixel-ratio: 2.625) {/* samsung 20ultra*/
+   and (device-height : 914px) 
+   and (-webkit-min-device-pixel-ratio: 2.625) {/* a51/71 */
      body{
        height: 650px;
        min-height: 650px;
