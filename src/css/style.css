@@ -516,7 +516,7 @@ and (-webkit-device-pixel-ratio : 2) { /* iphone 5,SE*/
         margin-top: 10vh;
       }
       main .coming-soon-form {
-        bottom: 18vh;
+        bottom: 14vh;
       }
       #content_thank_you{
         width: 500px;  
@@ -557,6 +557,66 @@ and (-webkit-device-pixel-ratio : 2) { /* iphone 5,SE*/
       }
       main .coming-soon-form {
         bottom: 19vh;
+      }
+      #content_thank_you{
+        width: 500px;  
+      } 
+    }
+   
+    @media only screen 
+    and (device-width: 414px) 
+    and (device-height: 896px) 
+    and (-webkit-device-pixel-ratio: 2) {/* iPhone 11*/
+      body{
+        height: 650px;
+        min-height: 650px;
+      }
+      main.content h1 {    
+        color: #686868;
+        margin-top: 10vh;
+      }
+      main .coming-soon-form {
+        bottom: 19vh;
+      }
+      #content_thank_you{
+        width: 500px;  
+      } 
+    }
+   
+    @media only screen 
+    and (device-width: 414px) 
+    and (device-height: 896px) 
+    and (-webkit-device-pixel-ratio: 3) {/* iPhone 11 pro max*/
+      body{
+        height: 650px;
+        min-height: 650px;
+      }
+      main.content h1 {    
+        color: #686868;
+        margin-top: 10vh;
+      }
+      main .coming-soon-form {
+        bottom: 19vh;
+      }
+      #content_thank_you{
+        width: 500px;  
+      } 
+    }
+   
+    @media only screen 
+    and (device-width: 375px) 
+    and (device-height: 667px) 
+    and (-webkit-device-pixel-ratio: 2) {/* iPhone SE 2020*/
+      body{
+        height: 650px;
+        min-height: 650px;
+      }
+      main.content h1 {    
+        color: #686868;
+        margin-top: 10vh;
+      }
+      main .coming-soon-form {
+        bottom: 22vh;
       }
       #content_thank_you{
         width: 500px;  
@@ -680,6 +740,25 @@ and (-webkit-device-pixel-ratio : 2) { /* iphone 5,SE*/
       width: 500px;  
     } 
   }
+
+  @media only screen and (min-device-width: 412px) 
+  and (max-device-height: 892px)
+  {/* a20/70 */
+   body{
+     height: 650px;
+     min-height: 650px;
+   }
+   main.content h1 {    
+     color: #686868;
+     margin-top: 12vh;
+   }
+   main .coming-soon-form {
+     bottom: 13vh;
+   }
+   #content_thank_you{
+     width: 500px;  
+   } 
+ }
    
 
 /*@media only screen and (min-width: 325px) 
