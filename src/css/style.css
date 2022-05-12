@@ -15,7 +15,6 @@
 .nav-wrapper {
     position: absolute;
     width: 300px;
-    margin: 0px 100px auto;
     text-align: center;
     right: 10%;
     top: 40px;
@@ -1354,7 +1353,6 @@ and (orientation: landscape) {
     .nav-wrapper {
         position: absolute;
         width: 300px;
-        margin: 0px 100px auto;
         text-align: center;
         right: 00%;
         top: 40px;
